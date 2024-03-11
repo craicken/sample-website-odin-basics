@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    flex: 1;
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
@@ -100,6 +99,30 @@ body {
 .information-subtext {
     max-width: 150px;
     text-align: center;
+}
+
+/* quote section */
+
+#quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#author-section {
+    margin-left: 550px;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
+}
+
+#quote-author {
+    font-weight: bold;
 }
 
 ul {
